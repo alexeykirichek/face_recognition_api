@@ -43,3 +43,5 @@ pip3 install Pillow face_recognition
 __Включаем модуль headers и разрешаем кроссдоменные запросы на стороне сервера (a2enmod headers, Header set Access-Control-Allow-Origin "*")__
 
 __Отправляем запросы на https://<ДОМЕН>:<ПОРТ>/api/__
+
+Ротацию логов в папке /var/face_recognition/logs нужно настроить отдельно.
