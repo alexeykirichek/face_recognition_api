@@ -12,7 +12,7 @@ apt-get install git cmake g++ libjpeg-dev zlib1g-dev apache2 php libapache2-mod-
 
 apt install -y python3-pip
 
-&nbsp;
+<br />
 cd /var/
 
 git clone https://github.com/alexeykirichek/face_recognition
