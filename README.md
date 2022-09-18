@@ -30,15 +30,15 @@ pip3 install Pillow face_recognition
 - сертификат (Let's Encrypt)
 
 ### Настройка прав:
-chown -R www-data:www-data /var/face_recognition/images/
-chown -R www-data:www-data /var/face_recognition/logs/
-chown -R www-data:www-data /var/face_recognition/public/
+- chown -R www-data:www-data /var/face_recognition/images/
+- chown -R www-data:www-data /var/face_recognition/logs/
+- chown -R www-data:www-data /var/face_recognition/public/
 
 ### Добавление ссылок на папки и файлы:
-ln -s /var/face_recognition/logs /var/face_recognition/public/logs
-ln -s /var/face_recognition/images /var/face_recognition/public/images
-ln -s /var/face_recognition/compare.py /var/face_recognition/public/compare.py
-ln -s /var/face_recognition/verification.py /var/face_recognition/public/verification.py
+- ln -s /var/face_recognition/logs /var/face_recognition/public/logs
+- ln -s /var/face_recognition/images /var/face_recognition/public/images
+- ln -s /var/face_recognition/compare.py /var/face_recognition/public/compare.py
+- ln -s /var/face_recognition/verification.py /var/face_recognition/public/verification.py
 
 __Включаем модуль headers и разрешаем кроссдоменные запросы на стороне сервера (a2enmod headers, Header set Access-Control-Allow-Origin "*")__
 
