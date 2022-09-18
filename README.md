@@ -1,6 +1,6 @@
 # face_recognition
 
-** АПИ для модуля распознавания лиц от ageitgey (https://github.com/ageitgey/face_recognition) **
+__АПИ для модуля распознавания лиц от ageitgey (https://github.com/ageitgey/face_recognition)__
 
 
 ### Примерный порядок установки и настройки для ОС Debian 10 (пользователь root)
@@ -40,6 +40,6 @@ ln -s /var/face_recognition/images /var/face_recognition/public/images
 ln -s /var/face_recognition/compare.py /var/face_recognition/public/compare.py
 ln -s /var/face_recognition/verification.py /var/face_recognition/public/verification.py
 
-** Включаем модуль headers и разрешаем кроссдоменные запросы на стороне сервера (a2enmod headers, Header set Access-Control-Allow-Origin "*") **
+__Включаем модуль headers и разрешаем кроссдоменные запросы на стороне сервера (a2enmod headers, Header set Access-Control-Allow-Origin "*")__
 
-** Отправляем запросы на https://<ДОМЕН>:<ПОРТ>/api/ **
+__Отправляем запросы на https://<ДОМЕН>:<ПОРТ>/api/__
