@@ -7,7 +7,7 @@ __АПИ для модуля распознавания лиц от ageitgey (ht
 
 apt-get update && apt-get upgrade
 
-
+<br />
 apt-get install git cmake g++ libjpeg-dev zlib1g-dev apache2 php libapache2-mod-php
 
 apt install -y python3-pip
@@ -17,22 +17,22 @@ cd /var/
 
 git clone https://github.com/alexeykirichek/face_recognition
 
-
+<br />
 cd face_recognition/
 
 git clone https://github.com/davisking/dlib.git
 
-
+<br />
 cd dlib/
 
 mkdir build; cd build; cmake ..; cmake --build .
 
-
+<br />
 cd ..
 
 python3 setup.py install
 
-
+<br />
 pip3 install Pillow face_recognition
 
 
