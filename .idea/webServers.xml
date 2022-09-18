@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c5ca0c39-5fd2-4c02-b7fb-1a9da85cf94f" name="root" url="http://91.218.231.110">
+        <fileTransfer rootFolder="/var/face_recognition" accessType="SFTP" host="91.218.231.110" port="22" sshConfigId="eea345f5-5bc2-43b7-b37b-87a2e3736ee8" sshConfig="root@91.218.231.110:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

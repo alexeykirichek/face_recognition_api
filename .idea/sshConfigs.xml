@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="91.218.231.110" id="eea345f5-5bc2-43b7-b37b-87a2e3736ee8" keyPath="$USER_HOME$/.ssh/prontosms" port="22" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>
