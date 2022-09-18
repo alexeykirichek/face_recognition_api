@@ -7,22 +7,34 @@ __АПИ для модуля распознавания лиц от ageitgey (ht
 
 apt-get update && apt-get upgrade
 
+
 apt-get install git cmake g++ libjpeg-dev zlib1g-dev apache2 php libapache2-mod-php
+
 apt install -y python3-pip
 
+
 cd /var/
+
 git clone https://github.com/alexeykirichek/face_recognition
 
+
 cd face_recognition/
+
 git clone https://github.com/davisking/dlib.git
 
+
 cd dlib/
+
 mkdir build; cd build; cmake ..; cmake --build .
 
+
 cd ..
+
 python3 setup.py install
 
+
 pip3 install Pillow face_recognition
+
 
 ### Настройка Apache:
 - порт (/etc/apache2/ports.conf)
