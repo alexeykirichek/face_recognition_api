@@ -1,4 +1,4 @@
-# face_recognition
+# Face Recognition API
 
 __АПИ для модуля распознавания лиц от ageitgey (https://github.com/ageitgey/face_recognition)__
 
